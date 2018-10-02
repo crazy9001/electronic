@@ -15,5 +15,10 @@ $(document).ready( function () {
             showMethod: "fadeIn",
             hideMethod: "fadeOut"
         }, toastr[e](n, t)
-    }
+    },
+    $("#side-nav").slimScroll({
+        height: "100%",
+        railOpacity: .4,
+        wheelStep: 12
+    })
 });

@@ -10,7 +10,8 @@
         "fideloper/proxy": "^4.0",
         "laravel/framework": "5.7.*",
         "laravel/tinker": "^1.0",
-        "laravelcollective/html": "^5.7"
+        "laravelcollective/html": "^5.7",
+        "yajra/laravel-datatables-oracle": "^8.8"
     },
     "require-dev": {
         "beyondcode/laravel-dump-server": "^1.0",
@@ -31,7 +32,8 @@
             "Electronic\\Assets\\": "core/assets/src",
             "Electronic\\Auth\\": "core/auth/src",
             "Electronic\\Users\\": "core/users/src",
-            "Electronic\\Dashboard\\": "core/dashboard/src"
+            "Electronic\\Dashboard\\": "core/dashboard/src",
+            "Electronic\\Products\\": "core/products/src"
         }
     },
     "autoload-dev": {

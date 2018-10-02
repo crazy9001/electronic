@@ -22,7 +22,9 @@
 
             @include('bases::partials.container_header')
 
-            @yield('content')
+            <div id="container-content" class="container-content">
+                @yield('content')
+            </div>
 
         </div>
     </div>

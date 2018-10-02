@@ -19,7 +19,7 @@ class SuperAdminController extends Controller
      */
     public function index()
     {
-        $containerHeader = trans('bases::layouts.container_header');
+        $containerHeader = trans('bases::layouts.container_header.dashboard');
         return view('dashboard::index.index', compact('containerHeader'));
     }
 }

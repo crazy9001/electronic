@@ -21,7 +21,9 @@ class DatabaseSeeder extends Seeder
             'name' => 'Super Admin',
             'slug' => 'super-admin',
             'permissions' => [
-                'dashboard.index' => true
+                'dashboard.index' => true,
+                'products.index'    =>  true,
+                'products.list' => true
             ]
         ];
         $adminRole = Sentinel::getRoleRepository()->createModel()->fill($role)->save();

@@ -151,6 +151,7 @@ return [
          * Package Service Providers...
          */
         App\Providers\HelperServiceProvider::class,
+        yajra\Datatables\DatatablesServiceProvider::class,
 
         /*
          * Application Service Providers...
@@ -218,6 +219,7 @@ return [
         'Sentinel'   => Cartalyst\Sentinel\Laravel\Facades\Sentinel::class,
         'Helper' => App\Helpers\BasicHelper::class,
         'Permission' => App\Helpers\PermissionHelper::class,
+        'Datatables' => yajra\Datatables\Datatables::class,
     ],
 
 ];

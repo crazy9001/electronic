@@ -174,6 +174,13 @@ return [
                     'local' => '/js/holder.min.js',
                 ],
             ],
+            'dataTables' => [
+                'use_cdn' => false,
+                'location' => 'bottom',
+                'src' => [
+                    'local' => '/js/jquery.dataTables.min.js',
+                ],
+            ],
             'core' => [
                 'use_cdn' => false,
                 'location' => 'bottom',
@@ -251,6 +258,13 @@ return [
                 'location' => 'top',
                 'src' => [
                     'local' => '/css/login.min.css',
+                ],
+            ],
+            'dataTables' =>  [
+                'use_cdn' => false,
+                'location' => 'top',
+                'src' => [
+                    'local' => '/css/dataTables.bootstrap.css',
                 ],
             ],
         ]

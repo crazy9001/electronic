@@ -3,5 +3,8 @@
 return [
     'error' => 'Error',
     'success' => 'Success',
-    'container_header'  =>  'Dashboard'
+    'container_header'  =>  [
+        'dashboard'    =>  'Dashboard',
+        'products'  =>  'Products'
+    ]
 ];

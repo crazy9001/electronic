@@ -25,7 +25,7 @@ class AuthController extends Controller
 
     public function getLogin()
     {
-        Assets::removeJavascript(['demo-dashboard']);
+        //Assets::removeJavascript(['demo-dashboard']);
         Assets::addStylesheets(['login']);
         return view('auth::auth.login');
     }

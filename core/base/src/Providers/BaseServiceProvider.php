@@ -11,6 +11,7 @@ namespace Electronic\Base\Providers;
 use Electronic\Assets\Providers\AssetsServiceProvider;
 use Electronic\Auth\Providers\AuthServiceProvider;
 use Electronic\Dashboard\Providers\DashboardServiceProvider;
+use Electronic\Products\Providers\ProductsServiceProvider;
 use Electronic\Users\Providers\UsersServiceProvider;
 use Illuminate\Support\ServiceProvider;
 
@@ -38,6 +39,7 @@ class BaseServiceProvider extends ServiceProvider
         $this->app->register(AuthServiceProvider::class);
         $this->app->register(UsersServiceProvider::class);
         $this->app->register(DashboardServiceProvider::class);
+        $this->app->register(ProductsServiceProvider::class);
 
         $this->mergeConfigFrom(__DIR__ . '/../../config/electronic.php', 'electronic');
         $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'bases');

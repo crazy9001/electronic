@@ -8,6 +8,7 @@ class HelperServiceProvider extends ServiceProvider
     protected $helpers = [
         // Add your helpers in here
         'Basic',
+        'menuItem',
         'permission',
     ];
 
